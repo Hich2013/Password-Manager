@@ -1,0 +1,23 @@
+﻿<h3>
+    {{ title }}
+</h3>
+<hr />
+<form role="form" style="max-width: 500px;">
+    <strong class="error">{{ error }}</strong>
+    <div class="form-group">
+        <label for="application">
+            Application
+        </label>
+        <input type="text" class="form-control" id="application" ng-model="appplication" />
+    </div>
+    <div class="form-group">
+        <label for="password">
+            Password:
+        </label>
+        <input type="text" class="form-control" id="password" ng-model="password" />
+    </div>
+    <a href="#/list" class="btn btn-info">Back to List</a>
+    <button type="submit" class="btn btn-default" ng-click="save()">
+        Submit
+    </button>
+</form>  
