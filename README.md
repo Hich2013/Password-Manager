@@ -17,7 +17,7 @@ can support a variety of front-end devices. It uses the lastest .NET Web API 2.0
 - Token Based Security  
 - Generating Secure Passwords (In Progress)
 - Unit Tests for Web API (In Progress)
-- Unit Tests for AngularJS 
+- Unit Tests for AngularJS (In Progress)
 - Entity Framework as ORM
     
 ### Web API Controllers 
